@@ -7,7 +7,7 @@ echo "$sum is"
 
 if [$sum -gt 10]
 then
-    echo "grather than ten"
+    echo " $sum grather than ten"
 else
-    echo "less than ten"
+    echo "$sum less than ten"
 fi
