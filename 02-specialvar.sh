@@ -1,8 +1,10 @@
 #!/bin/bash
-num=$1
-if [$num -gt 10]
+
+echo "Enter the Number: "
+read n
+if [ $n -gt 150 ]
 then
-    echo "$num is greatherthan 10"
+    echo "Number $n is greater than 150"
 else
-    echo "$num is lessthan 10"
+    echo "Number $n is smaller than 150"
 fi
