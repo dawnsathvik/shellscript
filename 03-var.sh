@@ -5,4 +5,5 @@ number2=$2
 sum=$(($1+$2))
 echo "$sum is"
 
-sourse ./02-specialvar.sh
+sourse ./02-specialvar.sh 
+echo "total sum entha?" {$sum}
